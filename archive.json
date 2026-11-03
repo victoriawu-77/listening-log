@@ -1,8 +1,78 @@
 {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-03",
+      "items": [
+        {
+          "id": "ztt8irafLMQ",
+          "url": "https://www.youtube.com/watch?v=ztt8irafLMQ",
+          "title": "Inside Figma’s PM OS: skills, agents, and Auto XP",
+          "channel": "How I AI",
+          "duration": "约 42 分钟",
+          "published": "2026-11-02",
+          "slot": "day",
+          "summary": "Figma 增长 PM Ezra Mechaber 演示他和同事把个人 Claude Code 配置做成 PM OS：一个装了 31 个 skill 的共享 repo，约 60–70 位 PM 在用。他最常用的「What's Up」skill 一天跑约六次，汇总 Slack 里的待决事项和欠别人的事；还演示用 Codex 按测试计划做浏览器 bug bash，以及 AutoXP——由 Slack 触发、多个 agent 协作、只留一个人工审核关口的增长实验流程。他坦言没能做出 benchmark 证明它比原生 agent 强，并随着模型变强不断删减指令。",
+          "why": "把个人 agent 配置变成团队共享的 skill 库，和 Happycapy 的 agent-native 思路几乎同构，也是设计/产品团队真实落地 AI 的样本。",
+          "difficulty": "中速美音；屏幕演示多，可以边看边猜；Claude Code、MCP、hooks 等工具词密集。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "q4ITwvlFplQ",
+          "url": "https://www.youtube.com/watch?v=q4ITwvlFplQ",
+          "title": "You Can't Tell What's Real Anymore. Here's What Comes Next - Cristóbal Valenzuela, Runway",
+          "channel": "AI Engineer",
+          "duration": "约 17 分钟",
+          "published": "2026-11-03",
+          "slot": "day",
+          "summary": "Runway 联合创始人兼 CEO Cristóbal Valenzuela 从 2019 年 128×128 像素的第一部 AI 短片讲起，解释视频模型本质上是规模化的「预测下一帧」，因此学会了物理规律和物体恒存。接着讲模型变得实时、可交互之后的方向：world interface models、机器人，以及研究原型 Continuum——屏幕上任何东西都能变成可交互的实时视频，还谈到给编码 agent 的「视觉思考」。",
+          "why": "「界面本身可以被实时生成」对未来 agent 电脑的交互设计很有启发，17 分钟短而密。",
+          "difficulty": "中速，带西语口音但清晰；研究概念词偏多，有演示画面辅助理解。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "1dwyL6Iz_PU",
+          "url": "https://www.youtube.com/watch?v=1dwyL6Iz_PU",
+          "title": "Modal CEO: Has Open-Source LLM Inference Peaked? | What Happens to the Cost of Compute",
+          "channel": "20VC with Harry Stebbings",
+          "duration": "约 62 分钟",
+          "published": "2026-11-02",
+          "slot": "night",
+          "summary": "Modal 联合创始人兼 CEO Erik Bernhardsson（Spotify 最早音乐推荐系统的作者）聊 AI 基础设施：他认为纯推理会变成大宗商品生意，市场会碎片化成各种专门产品；早期公司其实没有护城河，品牌在 AI 基础设施里反而比以往更重要。节目还谈到 Modal 年化收入破 10 亿美元、sandbox 业务约 3 亿美元 run rate、每月在编码 agent 上花约 50 万美元，以及他为什么认为 AI agent 不会取代软件工程师、预计 AI 市场会回调 20–30%。",
+          "why": "agent 产品背后的算力和 sandbox 成本结构，直接关系到 Happycapy 这类产品的定价与底层选型。",
+          "difficulty": "语速偏快，主持人英式口音、嘉宾略带瑞典口音；融资和算力术语多，睡前当背景听即可。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "lazy in the right places",
+          "zh": "在该偷懒的地方偷懒：把重复杂事交给 AI"
+        },
+        {
+          "en": "raise the floor / take off the ceiling",
+          "zh": "抬高底线 / 打开上限：AI 既保证基础工作不漏，也拓展能力上限"
+        },
+        {
+          "en": "next-frame prediction",
+          "zh": "预测下一帧，视频模型的训练方式"
+        },
+        {
+          "en": "object permanence",
+          "zh": "物体恒存：东西被挡住后仍知道它还在"
+        },
+        {
+          "en": "commodity business",
+          "zh": "大宗商品化的生意：产品同质化，只能拼价格"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-02",
       "items": [
