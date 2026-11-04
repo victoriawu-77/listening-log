@@ -1,8 +1,92 @@
 {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-04",
+      "items": [
+        {
+          "id": "r4IW73e6tE4",
+          "url": "https://www.youtube.com/watch?v=r4IW73e6tE4",
+          "title": "Derek Briggs - Scaling craft at Shopify",
+          "channel": "Dive Club",
+          "duration": "约 51 分钟",
+          "published": "2026-11-03",
+          "slot": "day",
+          "summary": "Shopify 首席设计师 Derek Briggs 分享如何在大公司里横向抬高 craft：他屏幕演示 shop.com 新轮播的细节——商家 logo 最后落定、卡片内元素跟拖拽变量联动、用 canvas 把当前帧模糊成氛围背景光，并拆解他常用的「soft-close drawer」缓动（cubic-bezier 0.2, 0.8, 0.0, 1 + 400ms）。他还谈到把数据监控做成每日 agent 循环、把个人工作方式沉淀成可分发的 markdown/skills，让「greatness accidentally happens」；并强调设计工程师仍是最关键角色之一，AI 应让人 10 倍更好，而不是只 10 倍更多活。",
+          "why": "设计细节怎么系统化、怎么用 agent 扩品味，几乎是 Happycapy 要做「人人能用的 agent 电脑」时的同构问题。",
+          "difficulty": "中速美音；屏幕演示多，缓动/设计工程词偏多，可跟画面理解。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "LL0YmIyBKSU",
+          "url": "https://www.youtube.com/watch?v=LL0YmIyBKSU",
+          "title": "⚡️ The 2026 Software Factory Infra Stack — Zach Lloyd, Warp.dev",
+          "channel": "Latent Space",
+          "duration": "约 35 分钟",
+          "published": "2026-11-03",
+          "slot": "day",
+          "summary": "Warp CEO Zach Lloyd 把「software factory」说成云端、用代码定义的 agentic 系统：repos、skills、MCP、工作流都写成声明式配置，从 Slack/Linear/GitHub 丢进工作项后按固定流程跑，并把全公司 agent traces 集中可观测。他演示 scorers（如冗余测试）、self-improvement（agent 给工厂定义提 PR）、以及用自家真实任务做 harness/model 矩阵 benchmarking；Warp 内部把每 PR 成本从约 $80 降到 $15–20，吞吐约升 40%。他认为这套更适合约 5–10 人以上、有平台/DevX 团队的公司，小团队用订阅制 coding agent 更快。",
+          "why": "把个人 coding agent 升级成可度量、可路由、可自改进的团队基础设施，和 agent-native 产品的「控制平面」思路直接相关。",
+          "difficulty": "中速美音；平台/工程黑话密（MCP、harness、scorers），有演示辅助。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "f0J_EeW42Lo",
+          "url": "https://www.youtube.com/watch?v=f0J_EeW42Lo",
+          "title": "What Robert Caro learned about power after studying it for 50 years",
+          "channel": "Dwarkesh Podcast",
+          "duration": "约 61 分钟",
+          "published": "2026-10-30",
+          "slot": "night",
+          "summary": "传记作家 Robert Caro 谈研究 Robert Moses 与 Lyndon Johnson 五十年的收获：权力如何绕过制度障碍把事建成，理想主义者如何在成功后变得无情，以及「说服」背后其实是可给予/剥夺的杠杆。他也讲写作方法——动手前先把整本书压成一句话、大量素材被删掉的遗憾，以及孤独对深度工作的影响。",
+          "why": "创始人视角听权力、执行力与长期深耕，睡前听叙事感强，不拼工具细节。",
+          "difficulty": "中速清晰美音；历史与政治叙事为主，术语少，适合睡前。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "QsL2BIvRJI8",
+          "url": "https://www.youtube.com/watch?v=QsL2BIvRJI8",
+          "title": "The company building America’s uranium supply from scratch",
+          "channel": "Cheeky Pint",
+          "duration": "约 59 分钟",
+          "published": "2026-11-03",
+          "slot": "night",
+          "summary": "General Matter 联合创始人兼 CEO Scott Nolan（前 SpaceX）跟 John Collison 聊美国铀浓缩与 HALEU：先进小堆为什么离不开更高丰度燃料、冷战后美国如何外包燃料供应链，以及他们为何在肯塔基 Paducah 建国产设施、目标冲刺到 2030。节目也谈到核电能否支撑 AI 算力扩张、1970 年代利率如何拖慢核电，以及把 SpaceX 式工程打法用到核燃料上。",
+          "why": "AI 扩张背后的能源与供应链硬约束，帮你把「算力叙事」接到物理世界；深科技创业样本。",
+          "difficulty": "中速美音；核燃料/能源缩写（HALEU 等）略密，当背景听即可。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "soft-close drawer",
+          "zh": "缓闭抽屉感：动画末尾留一点缓冲，看起来仍快但更自然"
+        },
+        {
+          "en": "greatness accidentally happens",
+          "zh": "让优秀「碰巧」发生：把品味沉淀成可分发的 skills/系统"
+        },
+        {
+          "en": "define the factory in code",
+          "zh": "用代码声明软件工厂：repos、skills、MCP、工作流都版本化"
+        },
+        {
+          "en": "closed-loop system",
+          "zh": "闭环系统：收集 traces → 评分/回放 → 改进工厂本身"
+        },
+        {
+          "en": "get it down to one sentence",
+          "zh": "先压成一句话：动笔前先想清楚整本书/项目到底在说什么"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-03",
       "items": [
