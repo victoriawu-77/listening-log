@@ -817,9 +817,79 @@
   <script>
     let DATA = {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-05",
+      "items": [
+        {
+          "id": "dSiTwPl0t1U",
+          "url": "https://www.youtube.com/watch?v=dSiTwPl0t1U",
+          "title": "The New AI Agents That Shop, Plan, and Gossip",
+          "channel": "a16z",
+          "duration": "约 50 分钟",
+          "published": "2026-11-04",
+          "slot": "day",
+          "summary": "Assistant Benchmark 创始人 David Pawlan（已实测 140+ 助手）和 a16z 的 Anish Acharya、Josh Elman 盘点 agent 格局怎么从「一个万能助手」变成多场景网络。他们用购物与旅行压测：多数 agent 会只盯第一条约束、丢掉第二条；信任是主障碍（约 22% 用户消息点名 trust），实用解法是「fence」——给个人 App/数据划权限边界，避免和个人/工作串味。还谈到 memory 可导出迁移、家长式劝导会杀死消费产品，以及 Wabi/Tomo 这类 multiplayer、甚至 agent 互相对话的社交实验。",
+          "why": "Happycapy 正是个人 agent 电脑：信任边界、多约束判断、记忆可迁移，几乎是产品验收清单。",
+          "difficulty": "中速美音；消费/产品案例多，jargon 适中，有具体测试故事好跟。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "XIHZpZtYCzo",
+          "url": "https://www.youtube.com/watch?v=XIHZpZtYCzo",
+          "title": "Your AI Agents Shouldn't Care Where They Run - Nikhil Harithas, Factory",
+          "channel": "AI Engineer",
+          "duration": "约 17 分钟",
+          "published": "2026-11-03",
+          "slot": "day",
+          "summary": "Factory 的 Nikhil Harithas 讲企业客户（如 Blackstone）为什么不能让 coding agent 借员工笔记本和身份跑：要自带算力、推理、身份与单租户部署。他们做了 Open Compute——把「管电脑」从 agent 产品拆开：gateway + driver 起 EC2/K8s/sandbox，环境主动连出 WebSocket relay，无需入站；支持 BYOK、快照/fork、过期环境替换。金句是 agents shouldn't care where they're run，并计划开源这层抽象。",
+          "why": "agent-native 电脑要同时回答「替谁做事」和「在哪跑」；短、密，适合白天跟一节。",
+          "difficulty": "中速美音；云/安全词（VPC、BYOK、sandbox）偏密，有架构叙述可跟。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "IOp5N4GxE6E",
+          "url": "https://www.youtube.com/watch?v=IOp5N4GxE6E",
+          "title": "The Inside Story of the 50 Who Built Modern AI With Kevin Roose",
+          "channel": "Every",
+          "duration": "约 46 分钟",
+          "published": "2026-11-04",
+          "slot": "night",
+          "summary": "科技记者 Kevin Roose（新书 The AGI Chronicles；与 Casey Newton 新开 Machine Gods）谈采访约 150 人为何能在极度保密的实验室里挖到故事：多数 on background、读论文再问细节、熟人雪球效应。他不觉得注定完蛋，但呼吁部署前强制安全测试；也讲用「council of Claudes」审章节、NotebookLM 理素材，以及 weightlifting vs forklifting——育儿要自己举重，创业文书可交给叉车。睡前叙事感强，专属 Lenny 深度摘要不覆盖本集，这里只点骨架。",
+          "why": "把 AI 实验室黑箱讲成人话，顺带看记者怎么用 agent 审稿；适合睡前不盯屏幕。",
+          "difficulty": "中速清晰美音；叙事为主，术语少，适合睡前。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "fence / fences",
+          "zh": "权限篱笆：给 agent 划清能碰哪些个人/工作数据，防止串味"
+        },
+        {
+          "en": "paternalism will kill any product",
+          "zh": "家长式劝导会杀死产品：别替用户「变好」，要跟真实偏好走"
+        },
+        {
+          "en": "agents shouldn't care where they're run",
+          "zh": "agent 不该关心自己跑在哪：算力/环境应可插拔抽象掉"
+        },
+        {
+          "en": "application identity",
+          "zh": "应用身份：agent 该有自己的身份，而不是长期借用用户权限"
+        },
+        {
+          "en": "weightlifting vs forklifting",
+          "zh": "举重 vs 叉车：挣扎本身有益的事自己做，纯搬运交给工具"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-04",
       "items": [
