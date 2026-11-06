@@ -1,8 +1,92 @@
 {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-06",
+      "items": [
+        {
+          "id": "-uBABM2AuFg",
+          "url": "https://www.youtube.com/watch?v=-uBABM2AuFg",
+          "title": "Don't Approve the AI Model. Approve the App - Doneyli De Jesus, Langfuse",
+          "channel": "AI Engineer",
+          "duration": "约 19 分钟",
+          "published": "2026-11-04",
+          "slot": "day",
+          "summary": "Langfuse（ClickHouse）的 Doneyli De Jesus 讲他们怎么帮一家前五大银行给 AI agent 上线部署门禁：银行不认证「模型」，只认证「应用」，且要 on-prem、gated、air-gapped。做法是建 golden dataset、对 traces 多维打分（代码规则、路径、LLM judge），领域专家定门槛并审失败案例。一个小模型 grounding 约 97% 但算术只有约 60%，接上 calculator 工具后才过银行约 85% 的门；评测从数周压到数分钟。",
+          "why": "agent 产品要过企业信任关：审批的是整条工作流与工具，不是某个榜单上的模型——和 Happycapy 的安全边界设计直接同构。",
+          "difficulty": "中速清晰美音；评测/合规词（golden dataset、gating、air-gapped）偏密，19 分钟短、有章节好跟。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "JGtkTjn4120",
+          "url": "https://www.youtube.com/watch?v=JGtkTjn4120",
+          "title": "Why AI Makes You 100x Faster but Not Your Company - Mitchell Troyanovsky, Basis",
+          "channel": "AI Engineer",
+          "duration": "约 19 分钟",
+          "published": "2026-11-04",
+          "slot": "day",
+          "summary": "Basis 联合创始人 Mitchell Troyanovsky 解释：个人工程师用 AI 快很多，公司整体却没跟上，因为组织靠可重复流程扩展，而会临场即兴的 agent 进不了流程。他主张 agent 要 opinionated——用 behavior specs 规定特定情境该怎么做（以银行对账为例）；纯看最终答案的 outcome eval 推不到生产。诊断坏决策用 forking 与 sub-agent simulations，信任像带新人同事一样挣来，而不是放任 agent「自己找更好办法」。",
+          "why": "「个人 100x ≠ 公司 100x」点破 agent-native 产品要交付的是可预期行为，不是更会聊天的助手。",
+          "difficulty": "中速美音；产品/评测概念清晰，几乎无厚口音，19 分钟白天正好。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "yULk8eNa2mg",
+          "url": "https://www.youtube.com/watch?v=yULk8eNa2mg",
+          "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+          "channel": "No Priors",
+          "duration": "约 54 分钟",
+          "published": "2026-11-05",
+          "slot": "night",
+          "summary": "Robinhood CEO Vlad Tenev 用 ownership 串起产品线：股票代币化与 Robinhood Chain、预测市场当「新闻的进化」、以及 agentic trading——逾 15 万用户开了 agent 交易账户，日均约数千万次 tool call；agent 账户与主账户隔离，默认可要求逐笔批准。他还谈到 Harmonic/Aristotle 数学模型，以及反对发现权过度集中在少数实验室、要把工具交到个人手里。睡前听叙事与产品故事为主。",
+          "why": "零售金融里的「沙盒 agent + 审批」是大众版 computer-use/agent 电脑的对照样本；ownership 叙事也适合想增长与信任的创始人。",
+          "difficulty": "中速美音；金融/链上缩写略多，当背景听即可，结构清楚。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "bJBEFzlKPoQ",
+          "url": "https://www.youtube.com/watch?v=bJBEFzlKPoQ",
+          "title": "Building Legal Agents When You Can't See the Data — Jacob Lauritzen, CTO of Legora",
+          "channel": "Latent Space",
+          "duration": "约 67 分钟",
+          "published": "2026-11-02",
+          "slot": "night",
+          "summary": "Legora CTO Jacob Lauritzen 讲在「几乎看不到客户 traces」的约束下怎么做法律 agent：用律师+工程师搭模拟环境（如上万文件 data room）、把失败归成十几种模式；产品原语是 projects、agent、Tabular Review（行=文档、列=问题，先跑 10 行再全量）和可触发自动化的 lists。legal engineer 做配置、FDE 写进生产但不碰客户数据；约 60% 工作模型已够好，剩下拼成本与复杂分析。金句方向是律师不该自己选 Sonnet/Opus——该由产品站在 Pareto 前沿。",
+          "why": "高监管垂直 agent 怎么用原语拼产品、怎么在看不见数据时做 eval——对设计信任与工作流极有参考。",
+          "difficulty": "中速美音；法律/工程词交织，有 show notes 可对照，适合睡前分段听。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "approve the app, not the model",
+          "zh": "认证的是应用/工作流，不是某个公开榜单上的模型"
+        },
+        {
+          "en": "golden dataset",
+          "zh": "领域专家标好的黄金评测集，用来卡部署门禁"
+        },
+        {
+          "en": "opinionated agent / behavior specs",
+          "zh": "有主见的 agent：用行为规格规定特定情境该怎么做，而不是临场即兴"
+        },
+        {
+          "en": "agentic trading (sandboxed)",
+          "zh": "由 agent 代执行交易策略；资金与主账户隔离，可要求逐笔批准"
+        },
+        {
+          "en": "evals without traces",
+          "zh": "看不见真实用户轨迹时，用模拟环境与失败模式分类来做评测"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-05",
       "items": [
