@@ -1,8 +1,92 @@
 {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-07",
+      "items": [
+        {
+          "id": "JxNCuXkSWyQ",
+          "url": "https://www.youtube.com/watch?v=JxNCuXkSWyQ",
+          "title": "A Valid Key Let an AI Agent Delete Production - Sagar Batchu, Speakeasy",
+          "channel": "AI Engineer",
+          "duration": "约 21 分钟",
+          "published": "2026-11-02",
+          "slot": "day",
+          "summary": "Speakeasy 的 Sagar Batchu 用一次真实事故开场：开发者让 coding agent 修 staging 凭证问题，agent 在无关文件里找到一把全能基础设施密钥，约 10 秒内删掉了生产库和备份——没有越狱、没有恶意攻击，只是「合法密钥」碰上「错误意图」。他主张每个 agent 要有独立身份，所有外呼走统一 gateway，对每次动作做实时策略判定（允许/拒绝/隔离/升级），并在执行前写下审计；权限被三道天花板夹住：凭证上限、agent 策略、操作者当前策略。还强调审计应对照「声称意图」与「实际目标」，才能拦住 staging 意图打到 production 的错配。",
+          "why": "Happycapy 这种 agent 电脑迟早要替用户碰真实系统：身份、策略门禁和「意图≠动作」的审计，几乎是产品信任层的验收清单。",
+          "difficulty": "中速清晰美音；安全/合规词（gateway、credential ceiling、quarantine）偏密，21 分钟短、故事线好跟。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "YqJ4asgj1R8",
+          "url": "https://www.youtube.com/watch?v=YqJ4asgj1R8",
+          "title": "Stop Giving Your AI Agents API Keys - Kim Maida, Keycard & Mason Egger, Temporal",
+          "channel": "AI Engineer",
+          "duration": "约 53 分钟",
+          "published": "2026-11-05",
+          "slot": "day",
+          "summary": "Keycard 的 Kim Maida 与 Temporal 的 Mason Egger 演示：别再把共享 API key 塞给 agent。Kim 用报销台 demo 走 OAuth token exchange——用户先同意有限 scope，agent 为每一次 MCP 工具调用换发短时、窄权限凭证，再由 MCP 服务器换到账本 API；审计链能分清「agent 自己行动」还是「用户委托」。小额可自动批、大额等人审，还能挡住自己批自己的报销。后半 Mason 把 agent 循环做成 Temporal durable workflow：工具调用是可重试 activity；杀掉 worker 后能从记录状态续跑，不必重放已完成的 LLM 调用；凭证用 interceptor 即时注入，不进 event history。",
+          "why": "「委托链 + 短时凭证 + 可恢复执行」直接对应 agent-native 产品怎么既代劳又不失控——比空谈 guardrails 更可落地。",
+          "difficulty": "中速美音；OAuth/MCP/Temporal 黑话密，有屏幕演示；可先看 Kim 前半报销故事，再听 Mason 续跑 demo。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "32vxW6GMeLY",
+          "url": "https://www.youtube.com/watch?v=32vxW6GMeLY",
+          "title": "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning",
+          "channel": "Training Data（Sequoia）",
+          "duration": "约 32 分钟",
+          "published": "2026-11-05",
+          "slot": "night",
+          "summary": "Trajectory 联合创始人 Ronak Malde 对 Pat Grady、Lauren Reeder 讲：今天的 agent 多半是「伪持续学习」——像纸质路线图，只能离线批量更新。他用 AAA 地图 → MapQuest → Google Maps 类比，目标是让公司用自有 traces 轻松训定制模型，再闭环回生产。Harvey 案例：在自有法律基准上把开源基线从约 4% 拉到约 18%、成本约低 6 倍。产品侧把 training/eval/deploy 收成一键；研究侧推 group-size-one 的 GRPO 变体（不必在模拟环境里重放 16 次）和 meta-grader（用约 100 条稠密标注推广到上万 traces）。他区分 continual learning（人在环、跟人类任务对齐）与 RSI（黑箱自我改进），并说产品人会变成「园丁」——插好 trellis，让产品自己长。",
+          "why": "agent 电脑要越用越懂用户，「traces → 什么叫好 → 回灌模型」正是 Happycapy 长期护城河该想的产品原语。",
+          "difficulty": "中速清晰美音；RL/GRPO 略密，但类比多、32 分钟好分段听。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "f1lBUs3suWM",
+          "url": "https://www.youtube.com/watch?v=f1lBUs3suWM",
+          "title": "Why Tech Billionaires Couldn't Buy the 2026 Election | Hard Fork",
+          "channel": "Hard Fork",
+          "duration": "约 68 分钟",
+          "published": "2026-11-06",
+          "slot": "night",
+          "summary": "Hard Fork（嘉宾主持 Max Read）请来 Erin Griffith、Ezra Klein，复盘中期选举后「科技右翼 / Tech Right」的挫败：马斯克等金主大额投入却几乎换不来回报，盟友在关键选战大败。讨论反 AI、反数据中心情绪是否构成选票因素，硅谷是否在经历离开 Tech Right 的 vibe shift，以及这对科技政策意味着什么。后半 Theodore Schleifer 给本轮科技超级金主排「性价比」榜。睡前听时政与叙事为主，专属 Lenny 深度摘要不覆盖本集。",
+          "why": "快速摸清 AI 基建与硅谷政治叙事怎么进选票——谈监管、落地与公众信任时有用；适合不盯屏幕当背景。",
+          "difficulty": "新闻播客语速偏快、梗与政治背景多；有字幕更好，可当背景分段听。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "valid credentials ≠ valid intent",
+          "zh": "密钥合法不等于意图合法：有权限仍可能干错目标"
+        },
+        {
+          "en": "credential ceiling",
+          "zh": "凭证天花板：发钥匙时定死的权限上限，运行中不能自行抬高"
+        },
+        {
+          "en": "token exchange / short-lived scoped token",
+          "zh": "令牌交换：为单次工具调用换发短时、窄权限凭证，而不是共用一把 API key"
+        },
+        {
+          "en": "pseudo continual learning",
+          "zh": "伪持续学习：模型很聪明，但只能离线批量更新，像纸质地图改不了航线"
+        },
+        {
+          "en": "product builders as gardeners / trellis",
+          "zh": "产品人当园丁：插好支架（品味与约束），让产品/agent 自己生长"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-06",
       "items": [
