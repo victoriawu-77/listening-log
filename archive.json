@@ -1,8 +1,78 @@
 {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-10",
+      "items": [
+        {
+          "id": "7BvJDTuTK-U",
+          "url": "https://www.youtube.com/watch?v=7BvJDTuTK-U",
+          "title": "Config India 2026: Figma deep dive: Design together with code on the canvas",
+          "channel": "Figma",
+          "duration": "约 28 分钟",
+          "published": "2026-11-09",
+          "slot": "day",
+          "summary": "Figma 的开发者布道师 Manish 和设计布道师 Sam 现场演示刚结束内测的 Code Layers：把静态画框一句话交给 Figma agent 变成可交互的代码图层，能像普通图层一样复制、并排 riff、评论和分享链接。背后是一个独立的轻量「原型游乐场」代码仓库，option 拖拽就等于开 Git 分支，还能在画布上直接 clone GitHub 仓库、提 PR、合并后再同步；用 Chrome 插件把线上页面抓回成代码图层、从中提取设计系统，或通过 Figma MCP 把 Codex 里做的原型搬进来。核心观点：有些想法只能用代码表达，不必在画布的灵活和代码的保真之间二选一，画布应成为设计、代码和文档共用的 context。",
+          "why": "设计师直接在画布上「用代码造原型、让 agent 改、开 PR」，正是 Happycapy 这类 agent 产品的设计协作新形态，值得看清 Figma 怎么把 Git 藏起来。",
+          "difficulty": "中等；印度口音英语为主、语速适中，大量屏幕演示可以看画面跟上，Git/PR 等术语不多但会出现。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "BTtyguoPvBU",
+          "url": "https://www.youtube.com/watch?v=BTtyguoPvBU",
+          "title": "How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle",
+          "channel": "AI Engineer",
+          "duration": "约 15 分钟",
+          "published": "2026-11-09",
+          "slot": "day",
+          "summary": "四次创业者 Ryan Carson（Untangle，做离婚家事法的 AI 律师助理）认为管 agent 就像管人：他主要用语音跟一个从不写代码的「工程经理」agent 对话，由它按 Linear 工单调度 5–25 个 builder agent，再用定时自动化每 15 分钟巡检一遍所有子会话，review 最多循环三轮，另有 QA agent 和专门协调合并冲突的 merge queue manager。他唯一不肯省的人工环节是亲自看每个功能的录屏再说 ship it，并直言还在本地写代码就是在拖慢团队。招聘也全改了：候选人录约 45 分钟用 agent 交付真实功能的视频，由 agent 排名，前五名做 16 小时付费试做，最后才通电话。",
+          "why": "「人只在关键处把关、其余交给 agent 分层管理」的组织方式，对 Happycapy 设计多 agent 协作和人机交接点很有参考价值，15 分钟短小精悍。",
+          "difficulty": "偏易到中等；英式口音、语速偏快但口语化，有幻灯和现场演示，agent/PR 工程词较多。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "KotQbLX8pOw",
+          "url": "https://www.youtube.com/watch?v=KotQbLX8pOw",
+          "title": "Mistral CEO: Why OpenAI & Anthropic Will Come for Your Business | Are Chinese Models Truly Safe?",
+          "channel": "20VC with Harry Stebbings",
+          "duration": "约 50 分钟",
+          "published": "2026-11-09",
+          "slot": "night",
+          "summary": "Harry Stebbings 对谈 Mistral 联合创始人兼 CEO Arthur Mensch。Arthur 认为主权 AI 是结构性需求而非政治表态：企业和国家把核心流程交给 AI，钱和数据就该留在本地；若只剩两三家中心化模型商，它们会用客户产生的数据去抢客户的生意。他还谈到推理市场像大宗商品市场、当下真正的瓶颈是算力而非能源，Mistral 庆幸没进需要靠广告的消费级市场，而专注制造、金融、国防和公共部门四个方向；并认为 AI 要推高 GDP 得靠更多真实生产，而不只是更多智能。",
+          "why": "从欧洲视角看「谁掌控模型和数据」，能帮你想清楚 Happycapy 依赖第三方模型时的护城河与风险，睡前听观点型对谈正合适。",
+          "difficulty": "中等偏上；Arthur 带法语口音、偶有停顿，Harry 英式快语速，商业和算力词汇较密，有分段时间轴可对照。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "code as a new material",
+          "zh": "把代码当成画布上的一种新「材料」，和形状、图层并列来设计"
+        },
+        {
+          "en": "the flexibility of canvas vs. the fidelity of code",
+          "zh": "画布的灵活 vs 代码的保真：Figma 说不必二选一"
+        },
+        {
+          "en": "canvas as context",
+          "zh": "让画布上的设计、代码、文档一起成为 AI 和团队的上下文"
+        },
+        {
+          "en": "this is the part where you want to cut corners",
+          "zh": "这正是你最想偷懒省步骤的地方（Ryan 指不看录屏就直接上线）"
+        },
+        {
+          "en": "behaves like a commodity market",
+          "zh": "像大宗商品市场一样运作：产品同质化，主要拼价格和供给"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-09",
       "items": [
