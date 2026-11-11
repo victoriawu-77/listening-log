@@ -817,9 +817,79 @@
   <script>
     let DATA = {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-11",
+      "items": [
+        {
+          "id": "zBROTIiHusc",
+          "url": "https://www.youtube.com/watch?v=zBROTIiHusc",
+          "title": "1,000 days of Duolingo didn't work. So he built his own app with Codex.",
+          "channel": "How I AI",
+          "duration": "约 39 分钟",
+          "published": "2026-11-09",
+          "slot": "day",
+          "summary": "Claire Vo 对谈 Hackmamba 创始人 William Imoh：搬到挪威后，他刷了 1,000 天 Duolingo 依然开不了口，于是用 Codex 和 GPT-Live 做了实时语音陪练 app Mural，原生 Swift/Kotlin 写成，而他自己从没写过一行 Swift。现场演示里 Mural 纠正他的语法、坚决拒绝切回英语；他说第一版设计「很烂」（暗色、不温暖），改用更具体的描述（浅色暖色、渐变、liquid glass）才对味，实时语音每 30 分钟大约花 3–5 美元。后半段讲他如何用分项目 + 一支「指环王」角色 agent 团队管约 25 人的公司，并坦言最怕的不是被取代而是过度依赖。",
+          "why": "既是 AI 产品案例（用设计语言指挥 agent 做出有质感的 app），又正好是一个「AI 陪练口语」的点子，对你练英语和想 Happycapy 的设计 brief 都有启发。",
+          "difficulty": "中等；William 语速适中、发音清楚（非美式口音），Claire 美式快语速，有屏幕演示和挪威语片段，技术词不多。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "1gYQc4CL_oo",
+          "url": "https://www.youtube.com/watch?v=1gYQc4CL_oo",
+          "title": "I was a Claude hater. Fable 5.2 changed my mind.",
+          "channel": "How I AI",
+          "duration": "约 25 分钟",
+          "published": "2026-11-09",
+          "slot": "day",
+          "summary": "Claire Vo 的 just-in-time 迷你单集：她用 Anthropic 新发布的 Fable 5.2 实测了两天，从一条推文 + 品牌手册生成不像幻灯片的动画短片、给静态 invader 小机器人做出跳跃欢呼的动画、凭几张模糊照片写出没有说明书的拼装家具步骤（其他模型都失败了），还用它重构 ChatPRD 的产品智能流水线。她的结论是：快、有创意、终于「不烦人」，但没有品牌规范约束时网页/UI 设计品味很差，设计类任务她仍会搭配 Opus 5.5。",
+          "why": "一个资深产品人对新模型「哪里强、哪里不能放手让它做设计」的一手判断，直接关系到 Happycapy 选模型和设计工作流。",
+          "difficulty": "中等偏易；Claire 一人主讲、美式语速偏快但很口语，全程有屏幕演示，模型名和 benchmark 术语略多。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "bdIoODXsu8k",
+          "url": "https://www.youtube.com/watch?v=bdIoODXsu8k",
+          "title": "Designing for Agents — Zeno Rocha, Resend",
+          "channel": "Latent Space",
+          "duration": "约 86 分钟",
+          "published": "2026-11-10",
+          "slot": "night",
+          "summary": "swyx 对谈 Resend 创始人 Zeno Rocha（Dracula 主题作者）。Zeno 说他以前是做前端的，起初对邮件一窍不通，这种「天真」反而让他敢去掉传统邮件服务的人工审核：默认信任用户，一旦退信、投诉率异常再快速封禁。他解释邮件投递的门道（Gmail 会限流、要先发给最活跃的用户、追踪像素已不可靠、一个滥用者会连累共享域名），以及如何为 agent 设计产品：MCP 已有 80 多个工具、每个营销页都有 Markdown 版和 FAQ，因为 agent 读不了 JavaScript 定价计算器；他认为 AEO 的关键是让更多真实讨论出现在更多地方。结尾聊到他宁可做 1000 万 ARR 也要陪伴女儿的取舍。",
+          "why": "「为 agent 设计产品」本身就是 Happycapy 的核心命题，这期把 agent 如何选工具、读定价、自助注册讲得很具体，适合睡前慢慢听。",
+          "difficulty": "中等偏上；Zeno 带巴西口音、语速适中，swyx 语速快、常插话，邮件和 DNS 术语较密，但对话轻松有笑声，有章节时间轴。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "it's always DNS",
+          "zh": "工程师老梗：出了问题十有八九是 DNS 配置（Zeno 说大部分工单都是 DNS 设置不对）"
+        },
+        {
+          "en": "noisy neighbor problem",
+          "zh": "「吵邻居」问题：共享资源里一个坏用户连累所有人（这里指滥用者让共享追踪域名进黑名单）"
+        },
+        {
+          "en": "it's a skill issue",
+          "zh": "网络用语「是你不会用」，指误用而非恶意滥用"
+        },
+        {
+          "en": "I want my product to be formless",
+          "zh": "希望产品「无定形」：用户想以任何方式（API、MCP、CLI）用它都可以"
+        },
+        {
+          "en": "bombed the hackathon",
+          "zh": "在黑客松上彻底搞砸了（bomb 口语里指惨败）"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-10",
       "items": [
