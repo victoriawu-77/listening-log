@@ -1,8 +1,78 @@
 {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-12",
+      "items": [
+        {
+          "id": "6j0S1-Qg6g0",
+          "url": "https://www.youtube.com/watch?v=6j0S1-Qg6g0",
+          "title": "Tom Johnson - The most insane portfolio of 2026",
+          "channel": "Dive Club",
+          "duration": "约 56 分钟",
+          "published": "2026-11-11",
+          "slot": "day",
+          "summary": "Ridd 请到 Vercel staff designer Tom Johnson，带看他新发布的个人站点 tomjohn.design：作品集一路做成了可「开进去」的模拟世界，还衍生出 White Knuckle——给自己开 46 英尺旅居车探路的 3D 路线规划工具，能按轴距、转弯半径等判断一条路到底能不能开。片里有大量屏幕演示：模型哪儿强哪儿弱、他如何把提示词写进案例（还为此做了 skill）、自制短视频工具，以及当 AI 也能「做出来」时，设计师的身份和工作流该怎么变。",
+          "why": "这几乎就是「设计师自己当 builder」的现场课，对 Happycapy 怎么展示能力、怎么把提示词和过程公开成作品，都很有参考。",
+          "difficulty": "中等；访谈节奏偏轻松，美式口语，全程有作品和 3D 演示，设计与工具词不少但讲解具体。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "wdyOjcCj2hw",
+          "url": "https://www.youtube.com/watch?v=wdyOjcCj2hw",
+          "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+          "channel": "How I AI",
+          "duration": "约 34 分钟",
+          "published": "2026-11-11",
+          "slot": "day",
+          "summary": "Claire Vo 对谈数学教育者、家长 Scott Farrar。他厌倦了聊天窗口会跑偏、转头就忘，于是用 Claude Code 维护一柜子本地 Markdown（在 Obsidian 里看），记录家电、保修、保险和待办。节目里他演示用这套「家庭大脑」比价车险、规划维修，并和妻子共享同一套文件；待办和「recent wins」还会投到墙上的 DAKboard。后半段谈到 AI 与孩子学习：他希望 AI 别替孩子思考，而是做「翻转导师」，让孩子反过来教模型。",
+          "why": "把记忆做成可读可改的文件、再用 agent 读写，是个人 AI 产品很清楚的一种形态，也适合想 Happycapy 如何让用户看见、编辑 agent 的记忆。",
+          "difficulty": "中等偏易；Claire 美式语速偏快，Scott 更慢更清楚，有屏幕演示，术语不多（Markdown、vault、agent）。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "-NARhJ7jAj4",
+          "url": "https://www.youtube.com/watch?v=-NARhJ7jAj4",
+          "title": "Nik Storonsky: The most uncompromising banking CEO",
+          "channel": "Cheeky Pint",
+          "duration": "约 52 分钟",
+          "published": "2026-11-10",
+          "slot": "night",
+          "summary": "John Collison 对谈 Revolut 创始人兼 CEO Nik Storonsky。Nik 说前七年几乎不做付费增长，靠把产品做明显更好（从零外汇手续费多币种卡开始）自然滚到如今约 8000 万用户、每天约 10 万新客。他细讲内部「new bets」：任何人可提案，小团队用 9–18 个月做出来，再拿上线后各月毛利跟历史约 100 个项目比，前 25% 加码、后 25% 撤人，不增长的就 sunset。他们更想做订阅而不是贷款（以免估值被当成银行），也在用自动化交叉销售和 LLM「客户经理」；AI 已从客服、翻译扩到几乎全公司，甚至在试做端到端的 AI employee。他说现在团队编制还偏「旧框架」，但认为未来两人小组也可能撑起一条产品，设计师目前仍值得留下。最后他主张 CEO 少去会议、把时间留在产品上，并希望 2028 年上市。",
+          "why": "严格用留存和分位成绩决定加减注的产品机器，加上「AI 可能让过去十年的 KPI/编制体系过时」的一线感受，对创业公司怎么开新方向很有用。",
+          "difficulty": "中等偏难；John 是爱尔兰口音、Nik 是非母语英语（俄语底），语速中等但单位经济、KYC、interchange、cohort 等金融词较多，适合睡前跟着官方逐字稿听。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "new bets",
+          "zh": "内部孵化新产品的机制：提案、验证、小团队试做，再用增长决定加码还是收摊"
+        },
+        {
+          "en": "sunset",
+          "zh": "把增长不行的产品下线、不再加投入"
+        },
+        {
+          "en": "AI-pilled",
+          "zh": "有多「All in AI」（节目里 John 的原话是 How AI-pilled are you）"
+        },
+        {
+          "en": "household brain",
+          "zh": "把家庭事务做成 agent 可读写的持久知识库，而不是散落在聊天记录里"
+        },
+        {
+          "en": "prompts in public",
+          "zh": "把提示词公开写进案例，让别人看见作品是怎么做出来的"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-11",
       "items": [
