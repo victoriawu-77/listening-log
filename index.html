@@ -817,9 +817,93 @@
   <script>
     let DATA = {
   "title": "Listening Log / 视听日志",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "source": "Lenny daily English listening routine + conversation summaries",
   "days": [
+    {
+      "date": "2026-11-13",
+      "items": [
+        {
+          "id": "vlfCjWuv4es",
+          "url": "https://www.youtube.com/watch?v=vlfCjWuv4es",
+          "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+          "channel": "AI Engineer",
+          "duration": "约 17 分钟",
+          "published": "2026-11-12",
+          "slot": "day",
+          "summary": "Anthropic Claude Code 团队的 Lydia Hallie 说，过去一年大家往 Claude Code 里加的大量设定，在 5.5 代模型上反而在拖后腿。她主张把 CLAUDE.md 写短，只留代码里看不出来的信息；默认用 auto mode，真正不能发生的事用 deny rule 拦住；权限只能决定一条命令启不启动，拦不住它启动后干什么，所以还要靠系统沙箱或独立的云端会话，再加上测试、构建、截图这类能判对错的检查点，以及按风险决定要不要人工审 PR。她现场演讲时出过技术故障，这是后来在家重录的版本。",
+          "why": "这几乎是「人从逐条审批，变成给 agent 设计护栏和环境」的说明书，对 Happycapy 怎么让 agent 长跑、用户如何看见和约束它，都很有用。",
+          "difficulty": "中等偏难；语速中等、口齿清楚，术语不少（deny rule、sandbox、hooks、CI），但结构清楚，看着演示会更好懂。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "iK9gmxXyBR0",
+          "url": "https://www.youtube.com/watch?v=iK9gmxXyBR0",
+          "title": "Pick Problems That Survive When AI Solves Coding - Ara Khan, Cline",
+          "channel": "AI Engineer",
+          "duration": "约 27 分钟",
+          "published": "2026-11-11",
+          "slot": "day",
+          "summary": "Cline 的 Ara Khan 讲他们如何用评测把 coding agent 的失败归类，再改 harness、重跑——甚至让一个「元 agent」自动跑了 17 小时来改进系统。他的建议是：去靠近有可验证反馈环的问题（评测、推理、数据、硬件等），选那些会随模型变强而变好、但又不会被下一次模型发布单独解决的方向。",
+          "why": "做 agent-native 产品时，很需要想清楚哪些能力会被下一版模型「吃掉」，哪些是值得长期做的问题。",
+          "difficulty": "中等偏难；会场演讲，推理偏快，有 harness、evals、recursive self-improvement 等术语，但例子具体。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "WstNofgQF5Q",
+          "url": "https://www.youtube.com/watch?v=WstNofgQF5Q",
+          "title": "A New Vision for Human Work After Automation",
+          "channel": "Every",
+          "duration": "约 27 分钟",
+          "published": "2026-11-11",
+          "slot": "night",
+          "summary": "Every 联合创始人兼 CEO Dan Shipper 在 Thesis: 2027 的闭幕演讲。他引用 OpenAI GDPval：盲测里 AI 赢过人类专家的比例从 2024 年的 12.4% 到 2026 年约 83%；他自己用一份 Claude 订阅，一周里做完约五个人的活（分析季度问卷、做 CRM、做游戏、再亲自触达客户）。但同一份问卷、同一个 Claude，团队里四个人看出完全不同的洞察；他们试着预测他在 Slack 里会怎么回，模型给出 400 个候选时能蒙对 93%，却很难把真正的那条排到前面。他的结论：生成已经便宜，难的是排序和视角；该用「它能不能按我的视角做好我的工作」来衡量模型，而不是用把人冻在过去的大盘基准。",
+          "why": "这几乎是在说设计师和创始人最关键的价值——品位、判断和非共识视角——不会被自动化抹掉，反而更重要。有完整逐字稿，可以边听边看。",
+          "difficulty": "中等偏易；准备过的演讲，语速稳、美式口音清楚，概念词多但会反复解释，适合睡前。",
+          "expressions": [],
+          "summary_quality": "full"
+        },
+        {
+          "id": "IiKf3BgBezE",
+          "url": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+          "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+          "channel": "No Priors",
+          "duration": "约 39 分钟",
+          "published": "2026-11-12",
+          "slot": "night",
+          "summary": "Elad Gil 对谈 Isomorphic Labs 总裁 Max Jaderberg。Max 认为药物研发长期靠昂贵、耗时的试错，他们想把发现搬到计算机上，做成可预测的精密工程：AlphaFold 证明了深度学习能在生物里泛化，模型的学习可以随规模复利，从而提高临床试验的成功率和速度。他们做的药物设计引擎不绑定特定病种、靶点类别或分子模态，也在讨论用 in-silico 模型减少动物实验，以及多药联用、同时改善寿命和健康寿命（healthspan）。",
+          "why": "节奏偏稳、长度合适；能听到一线团队如何把「发现」变成「设计」，即使领域是制药，这种产品思路对做 agent 也有启发。",
+          "difficulty": "中等；访谈节奏从容，Max 英式口音清楚，生物学和药研术语（in silico、modality、endpoint）会密一些，听大意即可。",
+          "expressions": [],
+          "summary_quality": "full"
+        }
+      ],
+      "expressions": [
+        {
+          "en": "deny rule",
+          "zh": "硬性拒绝规则：在自动审批之前就拦截绝不能发生的操作（比如读取 .env）"
+        },
+        {
+          "en": "recursive self-improvement",
+          "zh": "系统帮助打造更强的后继系统，并重复这一过程"
+        },
+        {
+          "en": "agency rupture",
+          "zh": "看着模型做完你原本的工作时，那种能力被抽走的冲击感"
+        },
+        {
+          "en": "non-consensus perspective",
+          "zh": "非共识视角：你独特的判断，用来推动模型做出你认为好的东西"
+        },
+        {
+          "en": "Generation is cheap, but ranking is hard",
+          "zh": "生成已经便宜了，难的是从一堆结果里排出真正该用的"
+        }
+      ],
+      "day_assignment": "confirmed"
+    },
     {
       "date": "2026-11-12",
       "items": [
