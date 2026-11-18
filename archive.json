@@ -1,8 +1,78 @@
 {
  "title": "Listening Log / 视听日志",
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "source": "Lenny daily English listening routine + conversation summaries",
  "days": [
+  {
+   "date": "2026-11-18",
+   "items": [
+    {
+     "id": "P5yPMQXzXSE",
+     "url": "https://www.youtube.com/watch?v=P5yPMQXzXSE",
+     "title": "Paul Jun - The Michelin star brand vending machine",
+     "channel": "Dive Club",
+     "duration": "约 59 分钟",
+     "published": "2026-11-17",
+     "slot": "day",
+     "summary": "Ramp 品牌与 AI 系统创意总监 Paul Jun 给 Ridd 做了一次内部演示：他们的 Ramp Creative agent 是一组放在 git 里的 skills，能判断请求是路演、文档、图形还是落地页，组件在 Figma，并连着 Notion、Snowflake 和 Slack。Paul 认为人们要的不是再发一套工具，而是一台「米其林星级自动售货机」——把有品味的决策做成可重复的系统，让 80% 到 90% 的落地页、广告、白皮书和 decks 达到高水准，而不是快餐式的“凑合”。创意团队应从“做三明治的柜台”变成 test kitchen，把时间留给实验和想清楚品牌；英国站上线甚至可以全由营销团队自助完成、设计师不用上手。没有现成 skill 时，agent 会先做一版并记到 Notion，再由设计师做成 10 分样例，让模型向卓越对齐。他也展示了 Inspect、Glass、Labs 等不同产品线的视觉探索，并说明年要解决的是：在颜色、名称、logo 和字体之外，怎样让整套输出真正成为一个系统。",
+     "why": "这几乎就是 Happycapy 也要面对的问题——怎么把你的品味和判断做成 agent 能执行、又不会被误用的品牌与设计系统，而不是再做一批一次性工具。",
+     "difficulty": "中等；对话轻松，有大量屏幕演示，Paul 语速中等、口齿清楚，会反复出现 skill、template、self-serve、vending machine，对着画面听会轻松很多。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "8cGfJOU3AlQ",
+     "url": "https://www.youtube.com/watch?v=8cGfJOU3AlQ",
+     "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+     "channel": "Latent Space",
+     "duration": "约 98 分钟",
+     "published": "2026-11-16",
+     "slot": "day",
+     "summary": "稍长，但可以从 17:04 的 Visual intelligence、54:58 的 Kontext 编辑，以及结尾谁在用 FLUX 这几段看起。Black Forest Labs 的 Andreas Blattmann（Latent Diffusion / Stable Diffusion 共同发明者）和 Dustin Podell（SDXL、FLUX Kontext）和 swyx 聊为什么 FLUX 3 要把图像、视频和声音一起训练。Andreas 用接球来解释「视觉智能」：手会在球到达前就开始移动，这种对运动的理解写不进一张静帧里；视频告诉你物体是怎么到那儿的，撞击声即使镜头没拍到接触也能补上信息。他们还谈到：镜头绕着人转时，模型应该能补出后脑勺；如果逐帧单独锐化，每帧都可能很好看，但播放时会闪烁，所以视频放大必须和主干模型一样照顾时间一致性。Dustin 讲了 Kontext 的早期实验：他怀疑一个能画出“戴帽子的狗”的模型，其实已经知道帽子该戴在哪儿，用很小的数据跑了几小时，模型就能把 logo 放到衬衫上，之后团队才花几个月把数据和模型做扎实。结尾有一个他们没预见到的用途：有人用 FLUX 修复老旧的家庭照片，再拿给家人看。",
+     "why": "FLUX Kontext 正在改日常修图和设计工作流；这场把「模型怎样真正理解画面，而不只是生成好看的一张图」讲得很清楚，对做视觉产品和 agent 原生界面都有启发。",
+     "difficulty": "中等偏上；swyx 语速偏快、术语多（diffusion、flow matching、autoregression），Andreas 有德语口音但讲得清楚，有产品演示和章节，可以跳着看。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "1bR0gtecoHU",
+     "url": "https://www.youtube.com/watch?v=1bR0gtecoHU",
+     "title": "Databricks CEO: AGI Is Already Here, Why Companies Are Behind, and the Superintelligence Debate",
+     "channel": "All-In Podcast",
+     "duration": "约 62 分钟",
+     "published": "2026-11-17",
+     "slot": "night",
+     "summary": "Databricks CEO Ali Ghodsi 和 Jason Calacanis 认为，现在已经有足够的智能去改变世界，企业落后不是因为模型不够聪明，而是上下文进不去：有大银行 CEO 因为法律责任，说会议「一百万年来都不会录」。Ali 说，再强的数学家如果不在会议室里，也帮不上忙；一旦上下文能喂进去，现有模型就能解决很多问题。但把数据全交给 agent 又会扩大攻击面，所以第二道门槛是安全和权限。他现场演示了公司内部的 agentic 系统 Genie：它维护一张不断更新的企业本体图（ontology），包含组织、会议、Slack 和文档，能把员工反馈按部门拆开，比如产品觉得决策人太多、工程觉得工具不行。Jason 把它比作 management Moneyball。Ali 认为这种能力现在还是竞争优势，还没普及；他也说会上市，但在 AI 转型期波动太大，现在更想先避开这种分心。谈到递归自我改进时，他的态度是：即便 98% 的代码由 AI 来写，也不等于已经出现 RSI，GDP 的变化仍可能很慢，要花上几十年。",
+     "why": "如果你在做会进入真实工作流的 agent，这场把「智能已经够了，缺的是上下文和安全」讲得很具体，演示也比纯聊天好懂。",
+     "difficulty": "中等；Jason 节奏快、有时插话，Ali 口音轻微、讲解清楚，演示段对着屏幕听即可，投资和安全用语不难跳过。",
+     "expressions": [],
+     "summary_quality": "full"
+    }
+   ],
+   "expressions": [
+    {
+     "en": "Michelin star vending machine",
+     "zh": "米其林星级自动售货机。Paul 用来形容把团队的品味做成可重复系统，产出要达到高水准，而不是“凑合能吃”的快餐。"
+    },
+    {
+     "en": "test kitchen",
+     "zh": "试验厨房。相对以前“接到订单就做三明治”的柜台，创意团队应把时间留给实验和想清楚品牌。"
+    },
+    {
+     "en": "pattern match to excellence",
+     "zh": "向卓越对齐。把 10 分的作品喂回系统，让 agent 学习什么才是好的，而不是只有模板。"
+    },
+    {
+     "en": "visual intelligence",
+     "zh": "视觉智能。Andreas 指模型要从图像、运动和声音里理解世界，而不只是生成好看的静帧。"
+    },
+    {
+     "en": "context problem",
+     "zh": "上下文问题。Ali 认为企业 AI 的瓶颈不是模型不够聪明，而是会议、文档和组织里的上下文进不了系统。"
+    }
+   ],
+   "day_assignment": "confirmed"
+  },
   {
    "date": "2026-11-17",
    "items": [
