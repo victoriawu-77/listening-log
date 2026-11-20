@@ -817,9 +817,79 @@
   <script>
     let DATA = {
  "title": "Listening Log / 视听日志",
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "source": "Lenny daily English listening routine + conversation summaries",
  "days": [
+  {
+   "date": "2026-11-20",
+   "items": [
+    {
+     "id": "pZWPq_ZAmM4",
+     "url": "https://www.youtube.com/watch?v=pZWPq_ZAmM4",
+     "title": "What it takes to set intelligence free — Fabian Hedin, CTO, Lovable",
+     "channel": "AI Engineer",
+     "duration": "约 22 分钟",
+     "published": "2026-11-19",
+     "slot": "day",
+     "summary": "Lovable 联合创始人兼 CTO Fabian Hedin 在 AI Engineer CODE 2026 上说，他们 2023 年几乎因为过早做复杂多智能体框架而失败，后来退回更简单的系统才活下来。现在模型跟上了，他们拿掉了原先 30 分钟的运行上限，支持 10 小时以上的任务；关键是三件基础设施：可持久的收件箱、像 Git 一样只追加、可分叉的任务历史（和发给模型的 prompt 分开，所以一天部署约 700 次也不中断任务），以及可在约 230 毫秒恢复、还能廉价分叉的计算机。验证分内外两圈：内圈看构建、lint 和浏览器，外圈看访客行为、A/B 和转化——因为用户要的是一门生意，而不只是一堆代码。",
+     "why": "这几乎就是在讲，怎样让长时间工作的 agent 真正跑起来，又不把人丢进一套复杂系统里。对 Happycapy 这类要让 agent 持续做事的产品，会特别有参考。",
+     "difficulty": "中等；会议演讲，有幻灯片，结构清楚。trajectory、checkpoint、copy-on-write 等词都配了图和例子，22 分钟也好白天看完。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "kBJe4H_WobA",
+     "url": "https://www.youtube.com/watch?v=kBJe4H_WobA",
+     "title": "What It Takes to Build an AI That Actually Knows You",
+     "channel": "a16z",
+     "duration": "约 33 分钟",
+     "published": "2026-11-18",
+     "slot": "day",
+     "summary": "First Person Labs 联合创始人 Ken Liu 和 a16z 的 Martin Casado、Joel de la Garza 介绍 Second：一个由你拥有的个人上下文层。Ken 认为人们低估了电脑里已经有多少关于你的信息，而每个新 agent 还要重新认识你；Second 会持续建立你的偏好、优先级、目标和意图，并开放给自己选择的 agent。他区分两种主动：reactive 只是响应新邮件这类事件，更难的是 reflective——把很长时间、很多事情串起来，在你开口之前帮上忙。因为系统几乎一直开着，信任必须写进架构：默认在你的设备上运行，模型由你控制，而不是锁在每一个聊天盒子里。",
+     "why": "这几乎就是 agent 原生电脑要补上的那一层——上下文跟你走、由你掌握。对怎么设计「主动帮忙」又让人放心，会特别有感觉。",
+     "difficulty": "中等；对谈，节奏稳，适合白天看。personal context、proactivity 都会当场解释，当音频听也可以，不过看的话更容易跟上产品和安全部分。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "_wLzJINt9iQ",
+     "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+     "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+     "channel": "No Priors",
+     "duration": "约 60 分钟",
+     "published": "2026-11-19",
+     "slot": "night",
+     "summary": "前 OpenAI 首席研究官、现 Arda CEO Bob McGrew 和 Sarah Guo、Elad Gil 对谈。他认为超级智能不会只存在于数据中心：如果不能感知和改变物理世界，再聪明也很难真正落地；他也觉得 hard takeoff 的论证是错的——自动化研究员只是一次性提升，因为瓶颈从来不是研究员人数，而是 GPU、实验和工厂。Arda 在做「制造工程师的 Cursor」，和 Anduril 合作，希望把产线改配变得像重新训练人一样快；他也不认为工厂必须先上人形机器人，很多时候一只手臂加摄像头就够了。",
+     "why": "睡前听一组清楚的「反共识」判断，也会提醒：智能变便宜之后，真正稀缺的可能是能在世界里动手的系统——和只做数字产品的视角是很好的对照。",
+     "difficulty": "中等；对谈，语速从容，适合睡前。hard takeoff、forward deployed engineering、wet lab 等词会在上下文里讲清楚，口音好懂。",
+     "expressions": [],
+     "summary_quality": "full"
+    }
+   ],
+   "expressions": [
+    {
+     "en": "set intelligence free",
+     "zh": "让智能自由运转。Fabian 指的不是放开不管，而是用持久的任务历史、可恢复的计算机和验证回路，让 agent 能长时间自主工作。"
+    },
+    {
+     "en": "durable inbox",
+     "zh": "持久收件箱。人和别的 agent、定时系统都可以往里面塞消息，正在运行的任务在合适的节点再纳入，而不是把状态绑死在一个进程上。"
+    },
+    {
+     "en": "reflective proactivity",
+     "zh": "反思式主动。不是邮件一来就提醒你，而是把很长时间、很多事件连起来，在你开口之前帮上忙。"
+    },
+    {
+     "en": "personal context layer",
+     "zh": "个人上下文层。一份由你拥有、可随身携带的「你是谁、你在意什么」的模型，开放给自己选择的 agent。"
+    },
+    {
+     "en": "hard takeoff",
+     "zh": "硬起飞。指智能一旦能自动化研究就会进入失控加速。Bob 认为这是错的，因为瓶颈在算力和工厂，不在研究员人数。"
+    }
+   ],
+   "day_assignment": "confirmed"
+  },
   {
    "date": "2026-11-19",
    "items": [
