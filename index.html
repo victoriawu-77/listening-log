@@ -817,9 +817,79 @@
   <script>
     let DATA = {
  "title": "Listening Log / 视听日志",
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "source": "Lenny daily English listening routine + conversation summaries",
  "days": [
+  {
+   "date": "2026-11-24",
+   "items": [
+    {
+     "id": "DuYVOYsoJcw",
+     "url": "https://www.youtube.com/watch?v=DuYVOYsoJcw",
+     "title": "He built a personal AI Chief of Staff with OpenClaw",
+     "channel": "How I AI",
+     "duration": "约 31 分钟",
+     "published": "2026-11-23",
+     "slot": "day",
+     "summary": "Innovaccer CTO Ankit Maheshwari 在旧金山家里的 Mac Mini 上跑着一套 OpenClaw（他叫它 Jarvis）。他先从自己卡住团队的审批队列入手：每四小时自动整理待批的招聘和差旅，准备好背景和问题，但招聘决定仍由他来做。一次在飞机上失联时，Jarvis 按他惯用的预算和「是否必要客户行程」标准，把即将过期的差旅批准了——结果没问题，但这让他意识到：agent 知道你的偏好，不等于它得到了许可。他后来把系统拆成编排器和窄范围的专项 agent（soul file），因为一个「全能」agent 会把不同人设弄混；日常用 WhatsApp 交互，也会让语音 agent 去电话联系迟迟不回 Slack 的同事。午餐则是另一种边界：DoorDash 上午 10 点截止，9:30 确认，不回就下单——这里「沉默即许可」是他故意设计的。",
+     "why": "这几乎就是 Happycapy 要回答的问题——一台属于个人的 agent 电脑，怎样在「帮你把事做完」和「不替你做不该做的决定」之间划清界限。屏幕演示很多，很适合白天看。",
+     "difficulty": "中等；边演示边讲，语速自然，美式口音好懂。soul file、subagent、cron、guardrails 会出现，但都跟着具体工作流走。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "-NFMsM2y0Vk",
+     "url": "https://www.youtube.com/watch?v=-NFMsM2y0Vk",
+     "title": "12 Rules for a Software Factory That Doesn't Ship Slop — Dex Horthy, Factory",
+     "channel": "AI Engineer",
+     "duration": "约 20 分钟",
+     "published": "2026-11-23",
+     "slot": "day",
+     "summary": "Factory 的 Dexter Horthy（此前是 Human Layer 的 CEO，现已并入 Factory）认为：coding agent 出现之前，软件工厂就已经存在——发现问题、翻译成工作、实现、测试、评审、发布、看反馈。换掉「编写代码的那个人」，并不意味着其余环节可以省略。他把作用力分成两端：forward pressure 把需求推进入口，backpressure（测试、lint、评审）保证输出达标；只有推进、没有回压，只会堆出更多产出。他还提到 Slop Code Bench：在「代码库随后续需求演化」这件事上，最好的模型大约只拿到 16%。最后他转向 anti-slop：生产长文档和大 PR 变便宜了，读懂它们并没有同步变便宜，未经审阅的内容会把成本转给所有下游的人和 agent。他的回应不是禁止用 AI，而是对意图和后果负责，并审阅你交给别人的东西。完整阅读版与逐字稿：https://ai.engineer/code/2026/talks/dexter-horthy",
+     "why": "前两天 Warp 和 Armin 分别讲了如何把工厂做成系统、以及如何先保住人的判断力；这篇把两端的压力说清楚了——对设计「人如何与 agent 共事、什么必须被检查」很有用。20 分钟，有幻灯片，很好白天看完。",
+     "difficulty": "中等；会议演讲，语速偏快、偶有脏话，但结构清楚。forward/back pressure、slop、lint、evals 会出现，他会用例子说明。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "mg4yo5HUMuQ",
+     "url": "https://www.youtube.com/watch?v=mg4yo5HUMuQ",
+     "title": "\"Fire the Bankers\": Most VCs Won't Survive AI | Why the Inference Layer is Uninvestable | Anj Midha",
+     "channel": "20VC",
+     "duration": "约 58 分钟",
+     "published": "2026-11-23",
+     "slot": "night",
+     "summary": "Anjney Midha 是 Anthropic 创始轮的天使投资人，曾任 a16z 普通合伙人，也投过 Mistral、Black Forest Labs 和 ElevenLabs。他认为前沿 AI 本质上是能源和算力生意，谁能拿到电和基础设施，往往比模型本身更能决定竞争力；中国在能源建设上的优势被他反复强调，但美国不必按「吉瓦对吉瓦」去硬比。他觉得把一次训练理解成千亿美元量级的「训练跑」是错的思路，因为研究里的强化学习已经大量消耗推理、和训练缠在一起。谈投资时，他主张 “Fire the bankers, bring in the scientists”，并警告分期交割（tranched rounds）可能变成障眼法；他也认为推理层本身很难单独做成一门可投的生意——它更像实验室工作流里的一个功能，团队往往会从外购走到自建——所以他不会投大多数独立推理服务商。结尾他提到，关键企业最终会拥有自己的 intelligence，本地和主权算力会变得不可避免。",
+     "why": "白天两段讲的是人和 agent 怎么把事做对；晚上这期把同一周的算力、能源和「推理能不能单独做成生意」摊开来，帮你跟上基础设施这一层，也和「智能要不要留在自己这边」有关。适合当音频。",
+     "difficulty": "中等偏上；对谈语速快，能源、芯片、风险投资术语较多（tranched rounds、neoclouds、inference layer），主持人会把问题问清楚，口音好懂。",
+     "expressions": [],
+     "summary_quality": "full"
+    }
+   ],
+   "expressions": [
+    {
+     "en": "soul file / master soul",
+     "zh": "给 agent 写的人设与原则文件。Ankit 用一份 master soul 做编排，再给健康、邮件等专项 agent 各自的约束，避免一个「全能」agent 把不同角色弄混。"
+    },
+    {
+     "en": "silence means permission",
+     "zh": "把「你没回复」当成许可。他给午餐订单这样设计（错过 10 点就没饭），但明确不希望招聘或差旅批准也这么做：知道你的偏好，不等于得到了许可。"
+    },
+    {
+     "en": "forward pressure / backpressure",
+     "zh": "Dex 用来描述软件工厂两端的力：一端把需求、故障和新目标推进来，另一端用测试、lint 和评审把关。只有推进、没有回压，只会堆出更多产出。"
+    },
+    {
+     "en": "slop transfers cost to the reader",
+     "zh": "生产变便宜了，读懂没有同步变便宜；未经审阅的长文档或大 PR，会把负担转给所有下游要读它的人和 agent。"
+    },
+    {
+     "en": "inference is a feature, not a business",
+     "zh": "推理层很难单独做成一门可投的生意，它更像前沿实验室工作流里的一项功能，团队往往会从外购走到自建。Midha 因此表示不会投大多数独立推理服务商。"
+    }
+   ],
+   "day_assignment": "confirmed"
+  },
   {
    "date": "2026-11-23",
    "items": [
