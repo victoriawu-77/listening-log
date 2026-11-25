@@ -1,8 +1,78 @@
 {
  "title": "Listening Log / 视听日志",
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "source": "Lenny daily English listening routine + conversation summaries",
  "days": [
+  {
+   "date": "2026-11-25",
+   "items": [
+    {
+     "id": "8Aoq6mJeAXI",
+     "url": "https://www.youtube.com/watch?v=8Aoq6mJeAXI",
+     "title": "Lessons from building agents on the Claude Platform",
+     "channel": "Claude",
+     "duration": "约 16 分钟",
+     "published": "2026-11-24",
+     "slot": "day",
+     "summary": "Jess Yan、Michael Cohen 和 Lance Martin 讲 Anthropic 把 Claude Managed Agents 的基础设施自己搭了三遍之后，才做成给客户用的平台。他们发现公司内外都卡在同一件事上：有 Messages API、Claude Code 或 Agent SDK，却没法让 agent 安全地连续跑上好几个小时。结论并不复杂——agent 核心就是一个 while loop——但随着模型变强，必须配上沙箱（文件系统和可执行环境）、可复用的 skills，以及不会泄漏的 MCP 凭证。他们把 harness 和执行环境拆开（视频里称为 decoupling the brain and the hands），用动态工作流调度多 agent，并用一个还在研究预览阶段的「dreaming」过程，把任务热路径里记下的记忆在会话之间整合起来。目标是：别再让开发者自己追着模型迭代去维护一套 harness。",
+     "why": "16 分钟，有讲解和平台演示，正好接上前两天 How I AI 里「个人 agent 怎么设边界」的话题——这次是平台层怎样把沙箱、技能和记忆做成可规模化的基础设施，对 Happycapy 很直接。",
+     "difficulty": "中等偏低；三人轮流讲，语速清楚，美式口音好懂。sandbox、harness、MCP、skills 会出现，但都跟着具体产品走。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "0JgzsNTCpuU",
+     "url": "https://www.youtube.com/watch?v=0JgzsNTCpuU",
+     "title": "Noam Segal - The next big trend in AI research",
+     "channel": "Dive Club",
+     "duration": "约 59 分钟",
+     "published": "2026-11-24",
+     "slot": "day",
+     "summary": "Figma AI Insights 负责人 Noam Segal 和主持人 Ridd 聊研究在 AI 之下会变成什么样子。他带的团队主要是把产品设计、工程和其他角色「揉」在一起的 builder，天天用工程工具做平台、agent 和 skills，好让研究能更快、更准地影响决策。他看到研究正在进入一种几乎不受约束的状态：能触达更多用户、合成更快，也不必再在「大规模浅问卷」和「小样本深访」之间二选一——AI 主持的访谈已经能两边都要。谈到 digital twins 时，他引用公开基准大约 80–85% 的准确率，认为剩下的 10–15% 可能来自人类的随机性，短期内未必能完全捕捉；它还不是研究的主要方式，但已经够用在一部分决策上，关键是喂进去的上下文（用户、产品、过往实验）。他还主张，曾经叫做 rapid research 的那种速度会变成研究的默认状态，并走向持续进行的 ambient research；真正的难点变成把洞察送到设计师和 PM 正在工作的画布、Slack 或 Notion 里，而且要个性化。结尾他强调 taste、craft 和「建筑师心态」这类 foundational skills，并希望研究圈少盯着技术局限、多面向这些限制被解开之后能做的事。",
+     "why": "这期几乎就是为设计师准备的——Figma 如何重组研究、digital twins 能做什么不能做什么、洞察怎样长在画布上。有讨论也有他们对交付形态的设想，很适合白天看。",
+     "difficulty": "中等；对话节奏偏从容，口音清楚。digital twins、synthesis、guardrails、self-serve research 会出现，他会用例子说明。中间有产品植入，可以跳过。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "tRaFbDFBl_A",
+     "url": "https://www.youtube.com/watch?v=tRaFbDFBl_A",
+     "title": "OpenAI’s Noam Brown: Why Game Theory Didn’t Lead to General Intelligence (Live at No Limit Finals)",
+     "channel": "Training Data (Sequoia)",
+     "duration": "约 31 分钟",
+     "published": "2026-11-24",
+     "slot": "night",
+     "summary": "Alfred Lin 在 No Limit 决赛现场采访 OpenAI 的 Noam Brown。他当初靠博弈论做出能赢职业扑克选手的 AI，但在 Diplomacy 里发现这条路走不通：博弈论的核心假设是所有人都是理性的，而人并不是。最后赢的 bot，是用大量人类数据去建模人们真实会怎么做。带着「模型需要先想再行动」这个判断，他在 2022 年许多实验室还只想继续放大预训练时加入了 OpenAI，参与做出了 o1——用 test-time compute 让通用语言模型在行动前推理。他认为我们正进入 centaur period：人加 AI 一起做，会比单独提示模型或完全不用 AI 都更有效；他也给出了自己最有争议的观点——有潜力的学生现在最好退学去实验室，因为他招过跳过大四的人，表现很好。完整逐字稿在 Sequoia 节目页。",
+     "why": "31 分钟，适合当音频。它把「为什么只做更大的预训练不够、推理为什么要在用的时候花算力」讲成一个故事，也和白天两期里「人和 agent 怎么共事」对得上。",
+     "difficulty": "中等；现场对谈，语速自然，偶有口头禅。GTO、test-time compute、chain of thought 会出现，但主持人会把问题问回到故事上，口音好懂。",
+     "expressions": [],
+     "summary_quality": "full"
+    }
+   ],
+   "expressions": [
+    {
+     "en": "digital twins / synthetic users",
+     "zh": "用数据和上下文构建的用户数字分身，用来预测真实用户可能的态度和行动。Noam 提到公开基准大约 80–85% 的准确率，认为剩下的部分可能来自人类的随机性；它还不能替代真人研究，但已经能加快一部分决策。"
+    },
+    {
+     "en": "self-serve research",
+     "zh": "他不太喜欢 democratize research 这个说法，更愿意说 self-serve：靠平台提供的指南和 guardrails，让更广泛的人也能做更严谨的研究，而不只把研究留在专业团队手里。"
+    },
+    {
+     "en": "ambient / continuous research",
+     "zh": "研究不再是一次次静止快照，而是通过产品内调研、日记研究和行为数据持续进行。他认为 rapid research 这个词会逐渐消失，因为所有研究都会变成那种速度。"
+    },
+    {
+     "en": "dreaming（agent memory）",
+     "zh": "Claude 团队用来类比人脑用做梦整合白天记忆的机制：agent 在任务热路径里记下重要的事，另有一个 dream process 在会话之间把这些记忆整理进更稳定的知识。目前仍是研究预览。"
+    },
+    {
+     "en": "centaur period",
+     "zh": "Noam Brown 用来形容当前这个阶段：人加 AI 一起做，会比单独提示模型、或完全不用 AI，都更有效。他拿现场一小时做扑克机器人的比赛当例子——两边都要，才能做得成。"
+    }
+   ],
+   "day_assignment": "confirmed"
+  },
   {
    "date": "2026-11-24",
    "items": [
