@@ -1,8 +1,78 @@
 {
  "title": "Listening Log / 视听日志",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "source": "Lenny daily English listening routine + conversation summaries",
  "days": [
+  {
+   "date": "2026-11-26",
+   "items": [
+    {
+     "id": "HnUtw3IWT3k",
+     "url": "https://www.youtube.com/watch?v=HnUtw3IWT3k",
+     "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+     "channel": "How I AI",
+     "duration": "约 32 分钟",
+     "published": "2026-11-25",
+     "slot": "day",
+     "summary": "Claire Vo 用一周时间，把六款刚发布的前沿模型做了 25 项盲测：GPT-6.2 Astra 和 Sol、Claude Fable 5.2 和 Opus 5.5、Gemini 4 Neon 和 Carbon，覆盖编码、写作、创意、视频、原型和个人助理。总榜上 Neon 是黑马第一，创意、视频和 App 原型尤其突出，而且相对便宜；编码已经分不太开，Astra 只是略高一点。但分数不是全部：同步用 Neon（经 Antigravity）很慢、容易烦，Opus 5.5 盲测分数较低，却是她日常最好用、在 Annoyance Bench 上没有感到沮丧的模型。她的结论是按任务、成本和每天用起来是否顺手来选，而不是只看榜。",
+     "why": "32 分钟，并排对比 SVG、缩略图、动画绘本和原型，正好帮你判断这些新模型在设计/原型上的口味差异——对 Happycapy 这类产品来说，「好用」和「跑分高」可能不是同一回事。",
+     "difficulty": "中等偏低；Claire 一边演示一边讲，语速清楚，美式口音好懂。模型名和 benchmark 术语多，但都跟着具体例子走。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "Qe9d9dWyED0",
+     "url": "https://www.youtube.com/watch?v=Qe9d9dWyED0",
+     "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+     "channel": "Latent Space",
+     "duration": "约 54 分钟",
+     "published": "2026-11-25",
+     "slot": "day",
+     "summary": "Thariq Shihipar（录制时刚离开 Anthropic，这期发布当天宣布加入 OpenAI）在 AI Engineer CODE 做了收官演讲，这期是现场加访。他把 AI 同时看成工业革命和文艺复兴：一边让软件更便宜、更能规模化，也容易出 slop；另一边让你有余力把一件东西做得更个人、更有手感。两者可以发生在同一个项目里。他承认自己曾错判模型只会用一种方式工作（比如只靠 Bash 或只写 React）；模型变通用之后，也可以在 Figma 里画。为了不被「看起来完美的默认值」带着走，他做了 /human 文件夹——真正可执行的代码，用高密度注释、限制行长等 lint，改一块石头的大小就能马上试投掷。他还做过分模式的 Mac Dock，用过之后发现自己更在意的是「意识到自己分心了」，后来关掉了最初的想法。谈到 decision model 时，他主张从设计师定义的动作里做一次前向传播就能选择，不必事事都靠长推理。他也怀疑完全无人值守的自我改进是不是最好的路。",
+     "why": "这期几乎就是在问 Happycapy 要回答的问题——工厂把事做完之后，人怎样把反馈环和品味放回去，让 agent 做出的东西真正能用、有手感。有游戏和桌面演示，适合白天看。",
+     "difficulty": "中等；对话从容，口音清楚，偶有口头禅和现场开玩笑。/human folder、decision model、forward pass、RSI 会出现，他会用演示说明。中间有赞助可以跳过。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "Em6tbhj9o6A",
+     "url": "https://www.youtube.com/watch?v=Em6tbhj9o6A",
+     "title": "The strongest objections to RSI",
+     "channel": "Dwarkesh Podcast",
+     "duration": "约 65 分钟",
+     "published": "2026-11-24",
+     "slot": "night",
+     "summary": "Dwarkesh Patel 和总经理 Max Farrens 逐条回应他那篇「为何预期 2030 年前出现超级智能」文章引发的反对意见（完整逐字稿：https://www.dwarkesh.com/p/rsiobjections）。他承认很多反对意见有分量：例如若反馈环里仍需要人，就还不是完整的递归；但他用类似 Amdahl 定律的算法说明，当已自动化的部分占比升高时，整体加速会非常快（自动化 50% 大约快一倍，99% 可达三十多倍），而且研究者会主动攻克还没被自动化的瓶颈。他并不认为明年就会出现 intelligence explosion，更预期那会在 2028–2029；但到明年年底，公开系统会更像能接手开放式项目的「全天候同事」，实验室内部则会更侧重把系统做得擅长做 AI 研究。结尾他提醒：对未来无法像定理一样证明，但即便只给三四年内出现超级智能 10–20% 的概率，也值得认真对待。",
+     "why": "白天两段讲的是产品和手感；晚上这期把「agent 自我改进会有多快、人还在环里算不算递归」摊开来，帮你跟上这轮争论，也和「个人 agent 会不会很快变成能接手整条项目的同事」有关。纯对谈，适合当音频。",
+     "difficulty": "中等偏上；对谈语速中等偏快，美式口音好懂，但 RSI、verifiable proxies、Amdahl’s law、uplift 等论证较密，有逐字稿可对着听。",
+     "expressions": [],
+     "summary_quality": "full"
+    }
+   ],
+   "expressions": [
+    {
+     "en": "Annoyance Bench",
+     "zh": "Claire 用本地 agent 会话日志做的评测，统计用户感到沮丧、把工作交回给模型、或反复说 keep going 的次数。跑分高的模型，不一定是每天最好用的。"
+    },
+    {
+     "en": "/human folder",
+     "zh": "Thariq 的做法：一块真正可执行的代码目录，用高密度注释、禁止单字母变量、限制行长等规则，让文件读起来像规格，却能直接改完就试玩。"
+    },
+    {
+     "en": "industrial revolution vs renaissance",
+     "zh": "他把 AI 同时看成「把软件做便宜、做规模」的革命，和「把省下的时间用来把一件东西做得有手感」的文艺复兴；两者可以发生在同一个项目里。"
+    },
+    {
+     "en": "decision model",
+     "zh": "一次前向传播就能从设计师定义的动作里做出选择的模型，不必事事都生成一大段推理。"
+    },
+    {
+     "en": "recursive self-improvement (RSI)",
+     "zh": "系统改进自身（尤其是做 AI 研究）从而加速下一步改进。Dwarkesh 认为，即便人还在环里，自动化比例升高时整体速度仍会极快。"
+    }
+   ],
+   "day_assignment": "confirmed"
+  },
   {
    "date": "2026-11-25",
    "items": [
