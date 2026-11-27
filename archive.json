@@ -1,8 +1,78 @@
 {
  "title": "Listening Log / 视听日志",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "source": "Lenny daily English listening routine + conversation summaries",
  "days": [
+  {
+   "date": "2026-11-27",
+   "items": [
+    {
+     "id": "bFcob2p6u3A",
+     "url": "https://www.youtube.com/watch?v=bFcob2p6u3A",
+     "title": "Execution Is Free. How Ambitious Are You? — Jason Liu, OpenAI",
+     "channel": "AI Engineer",
+     "duration": "约 19 分钟",
+     "published": "2026-11-26",
+     "slot": "day",
+     "summary": "OpenAI Developer Experience 的 Jason Liu 在 AI Engineer CODE 上讲：当执行变得几乎免费，野心不该用「后台跑了多少 agent、烧了多少 token」来衡量。他回应三种常见焦虑——AI 会制造更多 slop、会削弱判断力、会取代我们——并给出三条原则：对你发出去的东西负责，不要变成自己作品的旁观者；发展一套能描述「什么叫好」的词汇，才能指挥模型改到点子上；用省下的时间进入你原本够不着的领域，而不是担心被替换。他用相机类比：更多平庸照片不可避免，真正危险的是 self-erasure；画家和艺术家的区别，在于你是否还握着意图。有 slides，适合白天看。官方逐字稿：https://ai.engineer/api/code/reading-download/transcripts/jason-liu.md",
+     "why": "几乎是为设计师写的 19 分钟——Happycapy 这类产品里，agent 可以生成界面和工作流，但「好不好用、还要不要再改一轮」仍然取决于你能不能说出品味。",
+     "difficulty": "中等偏低；语速清楚，美式口音好懂，带着 slides。会出现 slop、taste、typography、state machine 等词，他都会用例子说明。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "Xyb1Bn_L2U4",
+     "url": "https://www.youtube.com/watch?v=Xyb1Bn_L2U4",
+     "title": "How 21 People Built a $100M+ Agent Company — Quinn Slack, Amp",
+     "channel": "AI Engineer",
+     "duration": "约 18 分钟",
+     "published": "2026-11-25",
+     "slot": "day",
+     "summary": "Amp 从 Sourcegraph 拆出来时只有 21 人，而且有一年几乎没法招人。Quinn Slack 讲他们怎样把公司本身建成 agent 优先：没有 Jira、没有独立客服系统、没有一堆 PM，一周只开一次会；讨论和修复都在 Amp thread 里进行，队友可以随时加入，agent 也能接着上下文干活。发布是小步、可观测的：先推日志，再改行为，改完让 agent 盯大约一小时。他们用自己做的 CRM 换掉了 Salesforce，并强调能力变化很快时，先花三个月满足「企业采购清单」会把产品甩在后面。Slack 说 Amp 已超过 1 亿美元 ARR 且盈利，并估计美元效率大约是传统公司的 40–50 倍。有组织方式和发布流程的 slides。",
+     "why": "21 人、agent 当同事、紧贴用户做小步发布——和 Happycapy 这种小团队怎么把 agent 织进日常工作，几乎是同一类问题。",
+     "difficulty": "中等偏低；语速中等，口音清楚，创业和产品词汇为主，slides 能帮你跟上。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "UGSSg8vv8vg",
+     "url": "https://www.youtube.com/watch?v=UGSSg8vv8vg",
+     "title": "Jensen Huang's $1TRN Return: What Happens Now | Anthropic Goes Public: Largest IPO Of All Time",
+     "channel": "20VC",
+     "duration": "约 70 分钟",
+     "published": "2026-11-26",
+     "slot": "night",
+     "summary": "这期是本周科技新闻快评，不是产品深访。Harry Stebbings 请来 Jason Lemkin，以及 Anthropic 早期投资人、Menlo 的 Matt Murphy。Murphy 讲述 IPO 当天：定价 83 美元、开盘 111.50 美元，按完全稀释大约 1.5 万亿美元；他拿 Google 从 100 亿到 1000 亿美元花了 15 年对比，认为这一波赢家会更宽。三人接着讨论黄仁勋短暂离任后再任：Jason 认为「先离开再回来」比在位接受调查更有 cleansing effect，也预期他会更收回到产品本身。后半段更贴近产品：Jason 认为 2027 年 horizontal agents 会接管很多 SMB 工作流（用户直接说要做什么，而不再先买一套 CRM），并警告 vibe coding 和一批老 SaaS 会过不了安全审计——因为攻击方也可以用成群的 agent。纯对谈，适合当音频。",
+     "why": "白天两段讲的是品味和小团队怎么用 agent 做产品；晚上这期帮你把 Anthropic 上市、以及「horizontal agents 会不会直接吃掉工具层」这两件正在发生的事听清楚。节奏偏快、话题会跳，不是助眠向，但信息密度高。",
+     "difficulty": "中等偏上；Harry 是英音、语速快，三人常叠话。估值、IPO、ARR 倍数和安全事件较多，可对照 Harry 在 X 上发的要点听。",
+     "expressions": [],
+     "summary_quality": "full"
+    }
+   ],
+   "expressions": [
+    {
+     "en": "execution is free",
+     "zh": "当 AI 把「做出来」的成本压到接近免费，野心不再取决于你能跑多少任务，而取决于你想做什么、是否对结果负责。"
+    },
+    {
+     "en": "self-erasure",
+     "zh": "Jason 的说法：真正的危险不是世界上多了更多 slop，而是你不再认领作品、不再迭代，变成自己产出的旁观者。"
+    },
+    {
+     "en": "describe what good looks like",
+     "zh": "品味要能被说出来。只跟模型说「再好看一点」不够，需要 typography、hierarchy、motion 这类词，判断才能变成可执行的修改。"
+    },
+    {
+     "en": "Amp threads",
+     "zh": "Amp 用共享对话线程代替 Jira 和工单；讨论本身就是给 agent 的上下文，同事也可以中途加入。"
+    },
+    {
+     "en": "horizontal agents",
+     "zh": "20VC 里的判断：下一波赢家可能不是又一个垂直 SaaS，而是用户直接下指令、由 agent 生成工作流的横向层。"
+    }
+   ],
+   "day_assignment": "confirmed"
+  },
   {
    "date": "2026-11-26",
    "items": [
