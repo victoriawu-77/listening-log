@@ -1,8 +1,78 @@
 {
  "title": "Listening Log / 视听日志",
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "source": "Lenny daily English listening routine + conversation summaries",
  "days": [
+  {
+   "date": "2026-11-28",
+   "items": [
+    {
+     "id": "1S4hx3wgvBE",
+     "url": "https://www.youtube.com/watch?v=1S4hx3wgvBE",
+     "title": "Stop Building Software Factories — Justin McCarthy, Diffusion",
+     "channel": "AI Engineer",
+     "duration": "约 18 分钟",
+     "published": "2026-11-26",
+     "slot": "day",
+     "summary": "Diffusion 创始人 Justin McCarthy 在 AI Engineer CODE 上讲：软件工厂适合用在已经有用户、已经有承诺的产品（他称为 brownfield）上，让 agent 循环把现有功能做得更快、更便宜、更安全；但如果产品本身还在争论「该做成什么样」，工厂只会让你用一个周末把争论中会输的那一方也实现出来。他把客服工单也看成规格的一部分——用户说出自己做不成的那件事，就是替换方案必须兑现的行为。Diffusion 把这类承诺叫做 promise，不只是功能，还包括成本、安全和性能。他估计围着已有承诺搭起第一座工厂大约要一周；代码开始大量涌出之后，真正稀缺的是「明天能向买家问什么」，所以他还提议做一座 demand factory，把客户发现和增长做成能跟软件生产同步的循环。有 slides，不太偏底层技术。官方阅读版：https://ai.engineer/talks/1S4hx3wgvBE-stop-building-software-factories",
+     "why": "Happycapy 这类还在快速定产品形状的团队，正好需要分清：哪些该交给 agent 工厂去兑现已有体验，哪些必须先想清楚再量产。否则执行变便宜，只会更快做出不该做的东西。",
+     "difficulty": "中等偏低；语速中等，美式口音清楚，带着 slides。会出现 brownfield、promise、demand factory，他都会用气泡水公司之类的例子说明。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "wrfbI5eyLAI",
+     "url": "https://www.youtube.com/watch?v=wrfbI5eyLAI",
+     "title": "1,000 Claude Agents Formalized Fermat's Last Theorem — Lance Martin, Anthropic",
+     "channel": "AI Engineer",
+     "duration": "约 19 分钟",
+     "published": "2026-11-25",
+     "slot": "day",
+     "summary": "Anthropic 的 Lance Martin 讲了两个实验。第一段：他们先在 9 月用大约十几个 Claude agent，再加一位研究者和专用平台，把费马大定理的证明形式化进 Lean；这次他拿掉那个平台，只给 1 个主 agent 和 999 个助手共用 Git 和一个 SQL 数据库。大约五分钟后，主 agent 自己建了任务分配、进度笔记和「已经写入 Lean」的表——这些表并没有人要求他们建。约 30 小时后工作完成，一个 agent 在 Git 上发出 freeze，并写下 “magnificent work all 999 of you”。第二段讲记忆：在 Pokémon 里，一条记错的笔记会让 Claude 反复掉进同一扇活板门；他称事后整理记录的过程为 dreaming，用来把记忆去重、纠错，否则精简却错误的笔记反而更容易被下次检索到。全程有组织方式和记忆目录的 slides。官方阅读版：https://ai.engineer/talks/wrfbI5eyLAI-1-000-claude-agents-formalized-fermats-last",
+     "why": "1000 个 agent 自己发明协作表，也说明共享记忆一旦写错就会被放大——Happycapy 如果让 agent 跨任务记住用户和界面决策，先要想「记什么、谁来纠正」，而不只是多开几个 agent。",
+     "difficulty": "中等；语速清楚，有大量 slides 和状态图。会听到 Lean、SQL schema、dreaming，数学证明细节不用全懂，重点是 agent 怎么分工和写记忆。",
+     "expressions": [],
+     "summary_quality": "full"
+    },
+    {
+     "id": "sVEcpLAVykg",
+     "url": "https://www.youtube.com/watch?v=sVEcpLAVykg",
+     "title": "How A.I. Is Transforming Mathematics",
+     "channel": "Hard Fork",
+     "duration": "约 38 分钟",
+     "published": "2026-11-27",
+     "slot": "night",
+     "summary": "纽约时报 Hard Fork 这期由 Max Read 主持，对话 UCLA 的陶哲轩（Fields Medal），也谈到他的新书《Six Math Essentials》。陶哲轩的核心判断是：AI 给了我们 answers without insight——能出答案，却不一定带来理解；数学要的是看清模式，而不只是求出 X。他说，实验室一度和数学家合作、再由人写完论文，后来开始自主解题，把上百页的证明丢给学界去消化；这些证明更像训练的副产品，早期引用也不完整，目前也还解释不清楚。他把这比成一架没有窗户的直升机：直飞瀑布打卡，却错过沿路的偶然发现。他预期数学会走向更大规模的协作（big math），并建议少强调「谁第一个解出来」，多承认把结果解释清楚、重新组织的工作。纯对谈，适合当音频。官网：https://www.nytimes.com/2026/11/27/podcasts/hardfork-terence-tao.html",
+     "why": "和白天两段形成对照——agent 可以规模化地交出结果，但「讲清楚、让人理解、决定什么值得保留」仍然是人的工作。对设计 AI 产品很有感觉：生成很容易，洞察和解释才是产品要护住的部分。",
+     "difficulty": "中等偏低；Max 语速清楚，陶哲轩讲得偏慢、咬字清楚，带一点口音。几乎没有公式，主要是研究方式和机构变化，当音频很好跟。",
+     "expressions": [],
+     "summary_quality": "full"
+    }
+   ],
+   "expressions": [
+    {
+     "en": "brownfield factory",
+     "zh": "Justin 的用法：在已经有用户和承诺的产品上跑 agent 工厂，用既有行为当参照；还没想清楚的新想法，不该直接拿去工业化。"
+    },
+    {
+     "en": "promise",
+     "zh": "在这期里不只是「功能承诺」。成本、性能、安全同样是产品必须继续兑现的 promise，agent 改快了也得先过这些关。"
+    },
+    {
+     "en": "dreaming",
+     "zh": "Lance 借用睡眠研究的说法：任务结束后再回看记录、整理和纠正记忆。精简却写错的笔记，反而可能被下次更高效地检索到。"
+    },
+    {
+     "en": "answers without insight",
+     "zh": "陶哲轩的判断：AI 能给出答案，却不一定带来理解。数学要的是看清模式，而不只是求出 X。"
+    },
+    {
+     "en": "a helicopter with no window",
+     "zh": "陶哲轩的比喻：直飞目的地打卡，却看不到沿路风景，也错过走慢路才会遇到的偶然发现。"
+    }
+   ],
+   "day_assignment": "confirmed"
+  },
   {
    "date": "2026-11-27",
    "items": [
